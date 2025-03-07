@@ -1,0 +1,162 @@
+@charset "UTF-8";
+body {
+    color: #191919;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+    font-size: 14pt;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-image: url(../../DIY/Images/Dubai_background.jpg);
+}
+#container {
+    width: 1200px;
+    height: 3520px;
+    background-color: rgba(209,209,210,0.85);
+    margin: auto;
+    border: 10px solid rgba(91,91,92,0.85);
+    border-radius: 20px;
+}
+/*Float the Aside so it displays next to Main.*/
+aside {
+    width: 224px;
+    height: 3145px;
+    float: left;
+    background-color: rgba(13,48,75,1);
+    margin-top: 0px;
+}
+header {
+    width: 1202px;
+    height: 245px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 111px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-variant: normal;
+    color: #0D304B;
+    line-height: 272px;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #F6CF90;
+    text-indent: 0px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: normal;
+    text-align: center;
+}
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line header.*/
+main {
+    width: 680px;
+    height: 200px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    float: right;
+    opacity: 1;
+    margin-left: -18px;
+    margin-bottom: -30px;
+    margin-right: 12px;
+    border-radius: 12px;
+}
+.floatLeft {float: left;}
+
+article {
+    margin-bottom: 50px;
+    color: #0D304B;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: -311px;
+    margin-left: 43px;
+}
+h1{
+    color: #0D304B;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-size: 37px;
+    font-weight: bold;
+    text-shadow: 0px 0px;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 1200px;
+    height: 130px;
+    background-color: rgba(13,48,75,1.00);
+    clear: both;
+}
+h3 {
+    font-size: 12px;
+    color: #C1C1C1;
+    width: 164px;
+    height: 346px;
+    line-height: 16px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-left: -10px;
+    background-position: 0% 0%;
+    text-align: center;
+}
+nav {
+    color: #F6CF90;
+}
+#container nav li {
+    float: left;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-style: italic;
+    list-style-type: none;
+}
+#container nav li {
+    font-weight: normal;
+    text-transform: uppercase;
+    height: 30px;
+    width: 250px;
+    margin-bottom: 14px;
+    margin-left: -32px;
+    margin-right: 213px;
+    letter-spacing: 10px;
+    margin-top: 28px;
+}
+
+nav a:link {
+    color: #F6CF90;
+    padding-top: 7px;
+    padding-right: 5px;
+    padding-left: 11px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+nav a:visited {
+    list-style-type: none;
+    color: #F6CF90;
+}
+nav a:hover {
+    color: #0D304B;
+    background-color: #F6CF90;
+    border-radius: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+
+}
+td   {
+    color: rgba(13,48,75,1.00);
+    height: 54px;
+}
+#container footer img {
+    margin-right: 33px;
+}
+h4   {
+    width: 164px;
+    height: 444px;
+    font-size: 14px;
+    margin-left: -21px;
+    margin-top: 1px;
+    margin-bottom: -20px;
+    color: rgba(13,48,75,1.00);
+    text-align: center;
+    border-right: 3px solid rgba(13,48,75,1.00);
+}
